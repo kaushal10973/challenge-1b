@@ -1,12 +1,4 @@
-venv/
-__pycache__/
-*.pyc
-*.pkl
-*.log
-*.bin
-app/local_model/
-input/
-output/
+
 
 # Ignore everything in input and output folders
 input/*
