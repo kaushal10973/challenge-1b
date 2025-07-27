@@ -7,3 +7,11 @@ __pycache__/
 app/local_model/
 input/
 output/
+
+# Ignore everything in input and output folders
+input/*
+output/*
+
+# But don't ignore the .gitkeep files
+!input/.gitkeep
+!output/.gitkeep
