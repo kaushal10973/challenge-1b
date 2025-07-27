@@ -29,6 +29,18 @@ docker run --rm ^
 ```
 (Use \ instead of ^ on Linux/Mac)
 
+### 🔗 Download Model
+
+The model folder (`app/local_model`) is not included in the repository due to size constraints.
+
+Download the SentenceTransformer model manually:
+
+```bash
+from sentence_transformers import SentenceTransformer
+model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+model.save("app/local_model")
+```
+
 # 📥 Input
 Place 3–10 related PDFs inside the input/ folder.
 
