@@ -1,9 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+*.pkl
+*.log
+*.bin
+app/local_model/
 
-
-# Ignore everything in input and output folders
-input/*
-output/*
-
-# But don't ignore the .gitkeep files
-!input/.gitkeep
-!output/.gitkeep
